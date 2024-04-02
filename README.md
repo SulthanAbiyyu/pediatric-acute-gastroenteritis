@@ -18,6 +18,32 @@ Penelitian dari (Miyagi, 2023) menggunakan decision tree classifier, memanfaatka
 
 ## Penjelasan dan Relevansi Fitur
 
+Fitur pada GSE69529_metadata.csv
+1. `lib_id`: ID sampel darah.
+2. `sample_name`: Nama sampel.
+3. `infection_group`: Kelompok infeksi yang menyebabkan gastroenteritis akut pada anak-anak, misalnya rotavirus, E. coli, Salmonella, dll.
+4. `age: months`: Usia anak dalam bulan.
+5. `age_group`: Grup usia anak (binning dari `age`).
+6. `who_score`: Skor pertumbuhan [WHO](https://www.who.int/publications/i/item/9789241547635) untuk menilai status gizi dan pertumbuhan anak.
+7. `sex`: Jenis kelamin anak (pria atau wanita).
+8. `height: m`: Tinggi anak dalam meter.
+9. `weight: kg`: Berat badan anak dalam kilogram.
+10. `wbc: 10^6/L`: Jumlah sel darah putih (leukosit) per liter darah.
+11. `neutrophils, 10^6/L`: Jumlah neutrofil per liter darah.
+12. `lymphocytes, 10^6/L`: Jumlah limfosit per liter darah.
+13. `monocytes, 10^6/L`: Jumlah monosit per liter darah.
+14. `eosinophils, 10^6/L`: Jumlah eosinofil per liter darah.
+15. `basophils, 10^6/L`: Jumlah basofil per liter darah.
+16. `red blood cell, 10^6/uL`: Jumlah sel darah merah (eritrosit) per mikroliter darah.
+17. `platelets, cells/uL`: Jumlah trombosit per mikroliter darah.
+18. `highest_temp`: Suhu tubuh tertinggi yang dicatat selama episode gastroenteritis.
+19. `duration_days`: Durasi hari dari episode gastroenteritis.
+20. `days_past_onset`: Hari sejak awal gejala gastroenteritis.
+21. `rotavirus vaccine doses`: Jumlah dosis vaksin rotavirus yang diberikan kepada anak.
+
+Terdapat hampir 15% sampel ada di data RNA namun tidak ada di metadata dan sekitar 20% sampel yang ada di metadata tetapi tidak ada di data RNA. Data RNA yang dimaksud adalah seluruh data TPM (contohnya GSE69529_TPM_genesymbol.csv). Jika ketidak serasian data ini dibuang atau diambil data yang tersedia saja, maka akan menyisakan sekitar 150 sampel saja. Merujuk ke penelitian yang sebelumnya yang diinisiasi oleh (Miyagi, 2023), maka pada penelitian ini akan memanfaatkan data GSE69529_metadata.
+
+
 ## Daftar Pustaka
 
 ```
