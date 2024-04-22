@@ -22,7 +22,7 @@ Fitur pada GSE69529_metadata.csv
 1. `lib_id`: ID sampel darah.
 2. `sample_name`: Nama sampel.
 3. `infection_group`: Kelompok infeksi yang menyebabkan gastroenteritis akut pada anak-anak, misalnya rotavirus, E. coli, Salmonella, dll.
-4. `age: months`: Usia anak dalam bulan.
+4. `age, months`: Usia anak dalam bulan.
 5. `age_group`: Grup usia anak (binning dari `age`).
 6. `who_score`: Skor pertumbuhan [WHO](https://www.who.int/publications/i/item/9789241547635) untuk menilai status gizi dan pertumbuhan anak.
 7. `sex`: Jenis kelamin anak (pria atau wanita).

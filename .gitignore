@@ -4,6 +4,7 @@
 
 *.csv
 *.pdf
+*.mp4
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
