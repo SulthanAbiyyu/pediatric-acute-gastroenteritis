@@ -43,6 +43,24 @@ Fitur pada GSE69529_metadata.csv
 
 Terdapat hampir 15% sampel ada di data RNA namun tidak ada di metadata dan sekitar 20% sampel yang ada di metadata tetapi tidak ada di data RNA. Data RNA yang dimaksud adalah seluruh data TPM (contohnya GSE69529_TPM_genesymbol.csv). Jika ketidak serasian data ini dibuang atau diambil data yang tersedia saja, maka akan menyisakan sekitar 150 sampel saja. Merujuk ke penelitian yang sebelumnya yang diinisiasi oleh (Miyagi, 2023), maka pada penelitian ini akan memanfaatkan data GSE69529_metadata.
 
+## Kode
+1. `notebooks/feature_understanding.ipynb`
+    - Memahami permasalahan domain dan mencari referensi studi kasus serupa
+    - Memahami fitur-fitur yang ada pada dataset
+    - Inspeksi dataset (cek duplikat, missing value, inconsistent value, dll)
+1. `notebooks/eda.ipynb`
+    - Analisis statistik deskriptif
+    - Visualisasi data univariat dan bivariat
+1. `notebooks/data_preprocessing.ipynb`
+    - Data cleaning dan preprocessing
+    - Desain data latih, evaluasi, dan test
+    - Feature Engineering
+1. `notebooks/modeling.ipynb`
+    - Eksperimen dan implementasi model
+    - Hyperparameter Tuning
+1. `notebooks/feature_importance.ipynb`
+    - Analisis Feature Importance
+    - Analisis perbandingan performa model
 
 ## Daftar Pustaka
 
